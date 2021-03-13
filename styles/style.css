@@ -426,6 +426,11 @@ footer li {
 
 
 @media (max-width: 500px) {
+
+  body {
+    width: 100vw;
+  }
+
   .about-container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -466,29 +471,26 @@ footer li {
   }
 
   #newsletter {
-    padding: 4rem 0;
+    padding: 4rem 2rem;
     text-align: center;
   }
 
   #newsletter h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 100%;
   }
 
   #newsletter h3 {
     width: 100%;
+    font-size: 1rem;
   }
 
   #newsletter .cta {
-    width: 80%;
-  }
-
-  .cta input {
-    width: 80%;
+    width: 100%;
   }
 
   .cta button {
-    width: 100px;
+    width: 150px;
     height: 50px;
     padding: 0;
     font-size: 0.8rem;
